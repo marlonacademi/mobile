@@ -1,0 +1,23 @@
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes.dex : \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$1.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$2.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$3.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$4.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$5.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$6.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$7.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$8.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$9.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/Util.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/BuildConfig.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/R$attr.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/R$drawable.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/R$string.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/R$xml.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/R.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/com/mobile/smartbraseletemobile/smartbraselete.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/org/apache/cordova/api/Dummy.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager$1.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager.class \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/ant-build/dexedLibs/classes-a9a1c34c98d63f4f01db4558ea784b94.jar \
