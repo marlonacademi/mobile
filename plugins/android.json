@@ -7,15 +7,15 @@
         "files": {
             "res/xml/config.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
-                            "count": 1
-                        }
-                    ],
                     "/widget": [
                         {
                             "xml": "<feature name=\"NfcPlugin\"><param name=\"android-package\" value=\"com.chariotsolutions.nfc.plugin.NfcPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -23,12 +23,6 @@
             },
             "AndroidManifest.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-                            "count": 1
-                        }
-                    ],
                     "/manifest": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.NFC\" />",
@@ -38,16 +32,22 @@
                             "xml": "<uses-feature android:name=\"android.hardware.nfc\" android:required=\"false\" />",
                             "count": 1
                         }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        }
                     ]
                 }
             }
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.network-information": {
+        "com.chariotsolutions.nfc.plugin": {
             "PACKAGE_NAME": "com.mobile.smartbraseletemobile"
         },
-        "com.chariotsolutions.nfc.plugin": {
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.mobile.smartbraseletemobile"
         }
     },

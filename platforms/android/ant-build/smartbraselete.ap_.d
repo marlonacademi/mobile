@@ -37,6 +37,7 @@
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/index.html \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/js \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/plugins \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/css/animate.css \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/css/bootstrap.min.css \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/css/css.css \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/css/index.css \
@@ -44,6 +45,7 @@
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/fonts/glyphicons-halflings-regular.svg \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/fonts/glyphicons-halflings-regular.ttf \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/fonts/glyphicons-halflings-regular.woff \
+/Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/img/loadinfo.net.gif \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/img/logo.png \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/js/app.js \
 /Applications/XAMPP/xamppfiles/htdocs/smartbraselet/mobile/platforms/android/assets/www/js/bootstrap.js \
