@@ -27,14 +27,14 @@ var app = app || {};
         };
     scope.validateLogin = function (){
         var login = document.querySelector(".js-login-name").value;
-        var senha = md5(document.querySelector(".js-senha").value);
+        var senha = document.querySelector(".js-senha").value;
         $.ajax({
-            url: 'http://smartbraselet.com.br:85/webservice/login',
+            url: 'webappservice.someideias.com/login',
             type: 'GET',
             data: 'login='+ login + '&senha=' + senha,
             dataType : "json",
             success: function (json){
-                if (json['total'] > 0){
+                if (json['return']){
                     app.config.idfuncionario = json['idFuncionario'];
                     window.sessionStorage.setItem('idfuncionario', app.config.idfuncionario);
                     $('.content-login').removeClass('bounceInDown page-show').addClass('bounceOutDown page-hidden');
@@ -60,7 +60,7 @@ var app = app || {};
             id = id.replace(/\[/g,'');
             id = id.replace(/\]/g,'');
             $.ajax({
-                url: 'http://smartbraselet.com.br:85/webservice/tag',
+                url: 'webappservice.someideias.com/tag',
                 type: 'POST',
                 data: 'tag='+ id + '&id_funcionario=' + app.config.idfuncionario,
                 dataType : "text",
