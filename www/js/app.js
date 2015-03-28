@@ -29,7 +29,7 @@ var app = app || {};
         var login = document.querySelector(".js-login-name").value;
         var senha = document.querySelector(".js-senha").value;
         $.ajax({
-            url: 'webappservice.someideias.com/login',
+            url: 'http://webappservice.someideias.com/login',
             type: 'GET',
             data: 'login='+ login + '&senha=' + senha,
             dataType : "json",
@@ -44,7 +44,7 @@ var app = app || {};
                     alert("O usuário ou a senha estão incorretos! ");
                 }
             },
-            error : function(){
+            error : function(xhr, status, error){
                 scope.checkConnection();
             }
         });
@@ -60,11 +60,10 @@ var app = app || {};
             id = id.replace(/\[/g,'');
             id = id.replace(/\]/g,'');
             $.ajax({
-                url: 'webappservice.someideias.com/tag',
+                url: 'http://webappservice.someideias.com/tag',
                 type: 'POST',
                 data: 'tag='+ id + '&id_funcionario=' + app.config.idfuncionario,
-                dataType : "text",
-                success: function (json){
+                success: function (){
                     $('.home').html('<span>Tag pega com sucesso.</span>');
                     setTimeout(function(){
                         $('.home').html(htmlspan);

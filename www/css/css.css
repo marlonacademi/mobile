@@ -69,3 +69,15 @@ main{
 		left: 10%;
 	}
 }
+
+.logo-fixed{
+	position: fixed;
+	top: 250px;
+	left: 45px;
+
+}
+
+.logo-fixed img{
+	width: 200px; 
+
+}

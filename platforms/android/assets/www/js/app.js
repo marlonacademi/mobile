@@ -27,14 +27,14 @@ var app = app || {};
         };
     scope.validateLogin = function (){
         var login = document.querySelector(".js-login-name").value;
-        var senha = md5(document.querySelector(".js-senha").value);
+        var senha = document.querySelector(".js-senha").value;
         $.ajax({
-            url: 'http://smartbraselet.com.br:85/webservice/login',
+            url: 'http://webappservice.someideias.com/login',
             type: 'GET',
             data: 'login='+ login + '&senha=' + senha,
             dataType : "json",
             success: function (json){
-                if (json['total'] > 0){
+                if (json['return']){
                     app.config.idfuncionario = json['idFuncionario'];
                     window.sessionStorage.setItem('idfuncionario', app.config.idfuncionario);
                     $('.content-login').removeClass('bounceInDown page-show').addClass('bounceOutDown page-hidden');
@@ -44,7 +44,7 @@ var app = app || {};
                     alert("O usuário ou a senha estão incorretos! ");
                 }
             },
-            error : function(){
+            error : function(xhr, status, error){
                 scope.checkConnection();
             }
         });
@@ -60,11 +60,10 @@ var app = app || {};
             id = id.replace(/\[/g,'');
             id = id.replace(/\]/g,'');
             $.ajax({
-                url: 'http://smartbraselet.com.br:85/webservice/tag',
+                url: 'http://webappservice.someideias.com/tag',
                 type: 'POST',
                 data: 'tag='+ id + '&id_funcionario=' + app.config.idfuncionario,
-                dataType : "text",
-                success: function (json){
+                success: function (){
                     $('.home').html('<span>Tag pega com sucesso.</span>');
                     setTimeout(function(){
                         $('.home').html(htmlspan);
