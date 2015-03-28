@@ -20,6 +20,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 }
 main{
 	overflow: hidden;
+	height: 100%;
 }
 .login{
 	color:#fff;
@@ -71,13 +72,15 @@ main{
 }
 
 .logo-fixed{
-	position: fixed;
-	top: 250px;
-	left: 45px;
-
+	  position: fixed;
+	  top: 100%;
+	  width: 36%;
+	  margin-top: -136px;
+	  left: 32%;
 }
 
 .logo-fixed img{
-	width: 200px; 
+	width: 100%;
+
 
 }
